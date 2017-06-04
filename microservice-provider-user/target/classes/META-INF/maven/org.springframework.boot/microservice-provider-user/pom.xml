@@ -6,10 +6,12 @@
 	<artifactId>microservice-provider-user</artifactId>
 	<packaging>jar</packaging>
 
+
 	<parent>
-		<groupId>com.itmuch.cloud</groupId>
-		<artifactId>microservice-spring-cloud</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>1.4.1.RELEASE</version>
+		<relativePath/>
 	</parent>
 
 	<dependencies>
